@@ -1,0 +1,96 @@
+.top {
+    background-color: lightblue;
+}
+
+.nav {
+    background-color: lavender;
+    height: 100px;
+}
+
+.nav div {
+    text-align: center;
+    color: rgb(250, 135, 169);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav ul{
+position: absolute;
+right: 20px;
+}
+
+.nav ul li{
+    display:inline-block;
+    margin-bottom: 20px;
+    margin-right: 2rem;
+}
+
+.nav ul li a{
+    color: rgb(97, 88, 8);
+    padding: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register {
+        text-align: center;
+}
+
+.register input{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px, 0;
+    box-sizing: content-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    
+}
+
+.register input[type = text]{
+    font-style: normal;
+    color: blueviolet;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+.register input[type = date]{
+    font-style: normal;
+    color: blueviolet;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+.register input[type = number]{
+    font-style: normal;
+    color: blueviolet;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+.register input[type = country]{
+    font-style: normal;
+    color: blueviolet;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+.register p button{
+    background-color: rgb(97, 88, 8);
+    font-size: 20px;
+
+}
+
+.end section h3 {
+    font-weight: 600;
+    font-size: larger;
+    color: brown;
+    font-style: oblique;
+}
+
+.end section p{
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
